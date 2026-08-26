@@ -7,7 +7,6 @@ Production-style machine learning project for predicting student final exam scor
 ![Python](https://img.shields.io/badge/Python-3.12%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-orange)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 </div>
 
