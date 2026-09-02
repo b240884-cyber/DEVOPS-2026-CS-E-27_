@@ -1,0 +1,52 @@
+{
+  "classification_best_params": {
+    "model__class_weight": null,
+    "model__max_depth": 4,
+    "model__max_features": "log2",
+    "model__min_samples_leaf": 2,
+    "model__min_samples_split": 2,
+    "model__n_estimators": 400
+  },
+  "classification_metrics": {
+    "Accuracy": 0.9494,
+    "F1": 0.9697,
+    "Precision": 0.9552,
+    "Recall": 0.9846
+  },
+  "feature_columns": [
+    "gender",
+    "age",
+    "study_hours",
+    "attendance",
+    "sleep_hours",
+    "previous_grade",
+    "internet_access",
+    "parent_education",
+    "family_income",
+    "extra_classes",
+    "assignments_completed",
+    "participation",
+    "study_efficiency",
+    "homework_ratio",
+    "academic_engagement_score",
+    "sleep_quality_index",
+    "grade_trend",
+    "risk_index"
+  ],
+  "pass_threshold": 40,
+  "regression_best_params": {
+    "model__max_depth": null,
+    "model__max_features": 0.8,
+    "model__min_samples_leaf": 1,
+    "model__min_samples_split": 2,
+    "model__n_estimators": 600
+  },
+  "regression_metrics": {
+    "MAE": 5.4359,
+    "MSE": 61.7454,
+    "R2": 0.8801,
+    "RMSE": 7.8578
+  },
+  "selected_classifier_model": "Gradient Boosting Classifier",
+  "selected_regression_model": "Random Forest Regressor"
+}
